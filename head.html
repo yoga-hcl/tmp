@@ -1,0 +1,20 @@
+<!--<script src="http://localhost:4000/auth/js/keycloak.js"></script>-->
+<script src="https://ucaas.hcluccx.com/auth/js/keycloak.js"></script>
+<script>
+  // Initialize Keycloak as early as possible.
+  console.log("head.html loaded successfully!");
+  function initKeycloak() {
+      var keycloak = new Keycloak();
+      keycloak.init({
+          onLoad: 'login-required',
+          promiseType: "native", 
+          checkLoginIframe: false
+        }).then(function(authenticated) {
+          alert(authenticated ? 'authenticated' : 'not authenticated');
+      }).catch(function() {
+          alert('failed to initialize');
+      });
+  }
+</script>
+
+

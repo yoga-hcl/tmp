@@ -1,0 +1,8 @@
+{
+  "realm": "demo",
+  "auth-server-url": "https://ucaas.hcluccx.com/auth/",
+  "ssl-required": "external",
+  "resource": "localjitsi",
+  "public-client": true,
+  "confidential-port": 0
+}
