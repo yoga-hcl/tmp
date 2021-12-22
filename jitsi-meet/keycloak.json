@@ -1,10 +1,10 @@
 {
-  "realm": "localjitsi",
+  "realm": "ucaas-hcl",
   "auth-server-url": "https://ucaas.hcluccx.com/auth/",
   "ssl-required": "external",
-  "resource": "localjitsi",
+  "resource": "HCL-UCAAS",
   "credentials": {
-    "secret": "b8ad0e44-9259-479b-af28-6d4108f9689b"
+    "secret": "ab583fd9-679e-4629-a6d1-1491ef7ad84e"
   },
   "confidential-port": 0
 }
